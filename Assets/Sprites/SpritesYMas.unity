@@ -166,6 +166,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: 10
   marco: 1.5
+  balas: {fileID: 1000013690788442, guid: 217373122b6a107418879edbc7bfacd7, type: 2}
 --- !u!1 &499777522
 GameObject:
   m_ObjectHideFlags: 0
