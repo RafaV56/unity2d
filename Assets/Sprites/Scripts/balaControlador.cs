@@ -14,10 +14,10 @@ public class balaControlador : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
         //Si la y de la bala esta por encima se destruye
-        if (transform.position.y > 10.5)
+        if (transform.position.y > 10.5 || transform.position.y < -10.5)
         {
             Destroy(gameObject);
-            //print("destruida la bala");
+            print("destruida la bala");
         }
 	}
 }
