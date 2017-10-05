@@ -197,6 +197,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8834aca3c0f6218498a0941cd8f239ff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  parallaxSpeed: 0.02
+  background: {fileID: 1273713774}
+  plattaform: {fileID: 1410543460}
 --- !u!1 &87017068
 GameObject:
   m_ObjectHideFlags: 0
